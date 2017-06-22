@@ -9,3 +9,11 @@ We will be comparing the following UI frameworks:
 * Semantic-UI (~2.2)
 * Foundation (~6)
 * More to come...
+
+### What features are we comparing?
+We will be comparing the following basic UI features:
+* Tabs
+* Nav bars (horizontal and vertical)
+* Divisions
+* Fluid layouts
+* More to come...
