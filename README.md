@@ -16,4 +16,8 @@ We will be comparing the following basic UI features:
 * Nav bars (horizontal and vertical)
 * Divisions
 * Fluid layouts
-* More to come...
+  * Grids - Cols and Rows
+  * Ease of setting/modifying gutters, margins, line grids, etc.
+* RWD at various resolutions
+* Icon set
+* Extra markup - semanticity
