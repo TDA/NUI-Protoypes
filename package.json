@@ -1,0 +1,11 @@
+{
+  "name": "nui_prototypes",
+  "version": "1.0.0",
+  "description": "NUI Prototypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Sai Pc",
+  "license": "ISC"
+}
