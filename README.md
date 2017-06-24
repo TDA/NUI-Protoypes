@@ -21,3 +21,6 @@ We will be comparing the following basic UI features:
 * RWD at various resolutions
 * Icon set
 * Extra markup - semanticity
+* Drop n play support
+* Amount of customization allowed, and required
+* Rigidity of required markup
