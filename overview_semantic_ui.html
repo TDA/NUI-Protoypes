@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Base Overview Page</title>
     <script src="js/jquery.js"></script>
     <script src="bower_components/Stickyfill/dist/stickyfill.min.js"></script>
@@ -9,28 +10,49 @@
     <link href="node_modules/semantic-ui-css/semantic.min.css" rel="stylesheet"/>
 
     <style>
+        .ui.segment.tab {
+            margin: 0;
+        }
 
+        .ui.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10px;
+        }
+        .ui.grid {
+            margin-top: 0;
+        }
+
+        .fourteen.wide.column {
+            margin-left: -1rem;
+        }
     </style>
 </head>
 <body>
-<div >
-    <h1>I am the first prototype</h1>
+<div class="ui row">
+    <h1>I am the second prototype</h1>
 </div>
-<ol >
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Library</a></li>
-    <li >Data</li>
-</ol>
-<div >
-    <nav >
-        <ul >
-            <li ><a href="#one" role="tab" data-toggle="tab"><span ></span><div >Home</div></a></li>
-            <li><a href="#two" role="tab" data-toggle="tab"><span ></span><div >Console</div></a></li>
-            <li><a href="#three" role="tab" data-toggle="tab"><span ></span><div >TV</div></a></li>
-        </ul>
-    </nav>
-    <div >
-        <div role="tabpanel" id="one">
+<div class="ui row">
+    <div class="ui breadcrumb">
+        <a class="section">Home</a>
+        <span class="divider">/</span>
+        <a class="section">Registration</a>
+        <span class="divider">/</span>
+        <div class="active section">Personal Information</div>
+    </div>
+</div>
+<div class="clearing"></div>
+<div class="ui row">
+<div class="ui grid">
+    <div class="two wide column">
+        <div class="ui fluid vertical pointing menu sticky">
+                <a class="item active" role="tab" data-tab="one"><span ></span><div >Home</div></a>
+                <a class="item" role="tab" data-tab="two"><span ></span><div >Console</div></a>
+                <a class="item" role="tab" data-tab="three"><span ></span><div >TV</div></a>
+        </div>
+    </div>
+    <div class="fourteen wide stretched column fluid">
+        <div role="tabpanel" id="one" class="active ui tab segment" data-tab="one">
             <div >
                 <div >I am a tab content guy.</div>
                 <div >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra at nibh sed suscipit. Curabitur congue neque a eros suscipit, in venenatis nisi auctor. Proin pulvinar leo eget nunc blandit viverra. Vivamus interdum libero vitae leo rutrum, eget interdum leo pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula euismod ex quis tempor. Ut tristique pellentesque orci in iaculis. Proin convallis tempus sollicitudin. Donec a mauris et odio ultrices imperdiet.</div>
@@ -68,7 +90,7 @@
                 <div >Donec sed lacus vehicula, porta ex vitae, pharetra turpis. Donec libero orci, feugiat ut tempor ut, venenatis ac purus. Vivamus sollicitudin bibendum ex, vestibulum mollis ante sollicitudin sed. Sed nec turpis vitae dolor faucibus malesuada. Nulla congue interdum eros, at gravida justo tincidunt non. Morbi consectetur maximus tortor quis dignissim. Praesent a rhoncus nunc. Vestibulum eu massa neque.</div>
             </div>
         </div>
-        <div role="tabpanel" id="two">
+        <div role="tabpanel" id="two" data-tab="two" class="ui tab segment">
             <div >
                 <div >Me too, I am also a tab content guy.</div>
                 <div >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra at nibh sed suscipit. Curabitur congue neque a eros suscipit, in venenatis nisi auctor. Proin pulvinar leo eget nunc blandit viverra. Vivamus interdum libero vitae leo rutrum, eget interdum leo pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula euismod ex quis tempor. Ut tristique pellentesque orci in iaculis. Proin convallis tempus sollicitudin. Donec a mauris et odio ultrices imperdiet.</div>
@@ -82,7 +104,7 @@
                 <div >Donec sed lacus vehicula, porta ex vitae, pharetra turpis. Donec libero orci, feugiat ut tempor ut, venenatis ac purus. Vivamus sollicitudin bibendum ex, vestibulum mollis ante sollicitudin sed. Sed nec turpis vitae dolor faucibus malesuada. Nulla congue interdum eros, at gravida justo tincidunt non. Morbi consectetur maximus tortor quis dignissim. Praesent a rhoncus nunc. Vestibulum eu massa neque.</div>
             </div>
         </div>
-        <div role="tabpanel" id="three">
+        <div role="tabpanel" id="three" data-tab="three" class="ui tab segment">
             <div >
                 <div >Me three, I am also a tab content guy.</div>
                 <div >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra at nibh sed suscipit. Curabitur congue neque a eros suscipit, in venenatis nisi auctor. Proin pulvinar leo eget nunc blandit viverra. Vivamus interdum libero vitae leo rutrum, eget interdum leo pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula euismod ex quis tempor. Ut tristique pellentesque orci in iaculis. Proin convallis tempus sollicitudin. Donec a mauris et odio ultrices imperdiet.</div>
@@ -97,7 +119,10 @@
             </div>
         </div>
     </div>
-
+    </div>
 </div>
+<script>
+  $('.menu .item').tab();
+</script>
 </body>
 </html>
