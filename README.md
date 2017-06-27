@@ -24,3 +24,8 @@ We will be comparing the following basic UI features:
 * Drop n play support
 * Amount of customization allowed, and required
 * Rigidity of required markup
+* Does JS play well with
+  * jQuery
+  * React
+* Future upgrades and support
+
