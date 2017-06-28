@@ -29,3 +29,7 @@ We will be comparing the following basic UI features:
   * React
 * Future upgrades and support
 
+### FAQ's
+* Why these frameworks?
+I did a quick Google search for the latest and greatest UI frameworks and 
+came across these. If you know of better ones, please do let me know.
