@@ -33,3 +33,8 @@ We will be comparing the following basic UI features:
 * Why these frameworks?
 I did a quick Google search for the latest and greatest UI frameworks and 
 came across these. If you know of better ones, please do let me know.
+
+* What are you doing this for?
+I need to select a good framework for something I am working on. I have been
+out of touch with CSS and JS frameworks for a while now and have no idea which
+one will suit my need.
