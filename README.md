@@ -46,3 +46,7 @@ that for a while.
 I totally would, if this were a personal project, but sadly it is not, and I
 need to help out a team of people with this.
 
+* Why did you not include Bootstrap 4, Foundation 72, ZORG INVASION 3333?!?
+At the time of starting this side project, these are the most recent stable
+versions available. Note `stable`. This is important, as the project I am 
+building is not experimental but a stable one.
