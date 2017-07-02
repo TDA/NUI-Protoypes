@@ -50,3 +50,8 @@ need to help out a team of people with this.
 At the time of starting this side project, these are the most recent stable
 versions available. Note `stable`. This is important, as the project I am 
 building is not experimental but a stable one.
+
+* Why just these features? Why can't you compare more?
+Please note that this is something I am doing in my free time. I neither 
+get paid for this, nor am I doing this for myself. I am helping out in the 
+little spare time I get.  
