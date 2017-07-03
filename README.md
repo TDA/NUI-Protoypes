@@ -54,4 +54,6 @@ building is not experimental but a stable one.
 * Why just these features? Why can't you compare more?
 Please note that this is something I am doing in my free time. I neither 
 get paid for this, nor am I doing this for myself. I am helping out in the 
-little spare time I get.  
+little spare time I get. If you think I missed a key feature comparison,
+please create an issue (good) or PR (preferred) with the changes. And I 
+promise I will work with you to completion. 
