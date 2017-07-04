@@ -29,6 +29,12 @@ We will be comparing the following basic UI features:
   * React
 * Future upgrades and support
 
+### Does this serve a purpose other than testing?
+I intend for this repo to serve as a reasonable resource and refresher
+for an experienced web dev getting back into the game. To serve that 
+purpose, I will try my best to write this in a way where the code is 
+readable and is documented sufficiently. 
+
 ### FAQ's
 * Why these frameworks?
 I did a quick Google search for the latest and greatest UI frameworks and 
