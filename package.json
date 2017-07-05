@@ -7,5 +7,9 @@
     "test": "test"
   },
   "author": "Sai Pc",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "foundation-sites": "6.4.1",
+    "semantic-ui-css": "2.2.10"
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "nui_prototypes",
+  "description": "NUI Prototypes",
+  "main": "index.js",
+  "authors": [
+    "Sai Pc"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ui",
+    "mockups"
+  ],
+  "homepage": "https://github.com/TDA/NUI-Protoypes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Stickyfill": "^1.1.4"
+  }
+}
