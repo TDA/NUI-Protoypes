@@ -33,7 +33,11 @@ We will be comparing the following basic UI features:
 I intend for this repo to serve as a reasonable resource and refresher
 for an experienced web dev getting back into the game. To serve that 
 purpose, I will try my best to write this in a way where the code is 
-readable and is documented sufficiently. 
+readable and is documented sufficiently. To that end, some of the `lorem
+ipsum dolor amet` needs to be re-written as text. However, in the initial
+phases, I do not expect to spend that kind of time. I will purely be 
+focusing on finding the right use-cases for each UI Framework, and see
+where each shines and fails.
 
 ### FAQ's
 * Why these frameworks?
